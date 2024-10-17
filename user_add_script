@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#Automate user add
+
+echo "Welcome to add User add script...."
+
+echo ""
+
+echo "Enter your UserName: "
+
+read user
+
+adduser $user
+
+echo ""
+
+echo "User Creted Succesfully..."

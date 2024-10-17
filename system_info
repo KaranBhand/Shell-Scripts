@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#This is script of system info
+
+echo "System info loading...."
+
+echo ""
+
+echo "You login as $(whoami)"
+
+echo ""
+
+echo "Current  OS present"
+
+cat /etc/os-release
+
+echo ""
+
+echo "Date:"
+
+echo ""
+
+echo "Your Uptime is $(uptime)"
+
+echo ""
