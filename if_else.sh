@@ -19,7 +19,7 @@ elif [[ $num2 -ge 3 ]]
 then
 	echo "num2 winner"
 else
-	echo "num3 winner""
+	echo "num3 winner"
 fi
 
 echo "End"
